@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+   
+    <style>
+      img.center{
+          display: block;
+      margin-left: auto;
+      margin-right: auto
+      }
+      .name{
+          text-align: center;
+          font-size: 30px;
+          color: rgb(15, 2, 2);
+      }
+      .price{
+          text-align: center;
+      }
+      .scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+  </style>
+</head>
+<nav>
+  <ul class="topmenu">
+    <li><a href="">Home</a></li>
+    <li><a href="index3.html">Shop</a></li>
+    <li><a href="index4.html" class="down">Blog</a>
+      <ul class="submenu">
+        <li><a href="">Category</a></li>
+        <li><a href="">Author</a></li>
+        <li><a href="">Archive</a></li>
+        <li><a href="">Tags</a></li>
+      </ul>
+    </li>
+    <li><a href="" class="down">Portfolio</a>
+      <ul class="submenu">
+        <li><a href="">Category</a></li>
+        <li><a href="">Author</a></li>
+        <li><a href="">Archive</a></li>
+        <li><a href="">Tags</a></li>
+      </ul>
+    </li>
+    <li><a href="">Contact</a></li>
+  </ul>
+</nav>
+&emsp13;
+
+
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.taburetka.ua/bu/3f/4d7u5p1e430dzjw6vbez2wxuasbju.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Диваны</h5>
+              <p>Лучшие диваны в мире</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Кровати</h5>
+              <p>Покупайте кровати только у нас!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://remstyl.dp.ua/wp-content/uploads/2020/08/kresla.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Кресла</h5>
+              <p>Самые лучшие!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+       
+      </div>
+      <h1> <div><center>Товары дня!</center></div></h1>
+      <table border="5" width="100%">
+        <tr>
+            <td><img class="center scale" width="400" src="https://www.8marta.ru/files/nodus_items/0110/55192/main_images/sborka-1-1512561331-1581420570.jpg" alt=""></td>
+            <td><img class="center scale" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGbmDeCv5Gzujos_cwWSn4qr4EWMhTfXGVw&usqp=CAU" alt=""></td>
+            <td><img class="center scale" width="400" src="https://www.mebelvdom.org/image/cache/catalog/wp-content/uploads/2019/10/Divan-Domino-270x270.jpeg" alt=""></td>
+        </tr>
+        <tr>
+            <td class="name">Диван</td>
+            <td class="name">Диван</td>
+            <td class="name">Расскладная кровать</td>
+        </tr>
+        <tr>
+            <td class="price">7900 грн.</td>
+            <td class="price">6999 грн.</td>
+            <td class="price">10900 грн.</td>
+        </tr>
+    </table>
+  </div>
+  <h1> <div><center>Товары недели!</center></div></h1>
+  <table border="5" width="100%">
+    <tr>
+        <td><img class="center" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwz2SqKQ1_F2J0kMLcQOV20Gtm-g3aUjwW0w&usqp=CAU" alt=""></td>
+        <td><img class="center" width="400" src="https://mebel-remont.kiev.ua/wp-content/uploads/homepae/divan.png" alt=""></td>
+        <td><img class="center" width="400" src="https://www.shatura.com/upload/iblock/d89/d8944b4beafec0c77e76220810021349.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td class="name">Диван</td>
+        <td class="name">Кровать</td>
+        <td class="name">Двухспальная кровать</td>
+    </tr>
+    <tr>
+     <td class="price">6000 грн.</td>
+        <td class="price">11500 грн.</td>
+      <td class="price">7999 грн.</td>
+    </tr>
+</table>
+<h1> <div><center>Последние продажи</center></div></h1>
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="https://triumph23.ru/upload/shop_3/3/2/2/item_322/small_baden-2x-triumph23__.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Диван "Лотос"</h5>
+      <p class="card-text">Диван "Лотос" очень мягкий, сделан максимально из природных натуральных материалов. Размеры: 1000/850/2345 <h2>Цена 11000 грн</h2> </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Последняя покупка 11 часов назад</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://divanvrn.ru/upload/iblock/746/16-min.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Диван "Грозовое небо"</h5>
+      <p class="card-text">Диван "Грозовое небо" Очень приятный для глаз цвет. Материал каркаса: дерево, Наполнение: пружинный блок, Механизм трансформации: еврокнижка Размеры: 1000/850/2350<h2>Цена 13000 грн</h2> </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Последняя покупка вчера</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.moon.ru/upload/1535361228-007-a10luxa10lux265pr.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Диван "Еврик"</h5>
+      <p class="card-text">Материал каркаса: дерево,
+        Наполнение: пружинный блок,
+        Механизм трансформации: еврокнижка,Размеры: 1000/800/2200 <h2>Цена 12000 грн</h2> </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Последняя покупка 2 дня назад</small>
+    </div>
+  </div>
+</div>
+</body>
+</html>
